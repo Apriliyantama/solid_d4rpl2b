@@ -1,18 +1,18 @@
 <?php
 
-require_once 'case 1/SocialMedia.php';
+//require_once 'case 1/SocialMedia.php';
 require_once 'case 1/Instagram.php';
 require_once 'case 1/WhatsApp.php';
 require_once 'case 2/Mobil.php';
 require_once 'case 2/MobilListrik.php';
 
-$sosmed = new SocialMedia();
+//$medsos = new SocialMedia();
 $ig = new Instagram();
 $wa = new WhatsApp();
 
 echo "--case 1--:\n";
-$sosmed->chat();
-$sosmed->sendPhotosAndVideos();
+//$medsos->chat();
+//$medsos->sendPhotosAndVideos();
 
 $ig->chat();
 $ig->sendPhotosAndVideos();

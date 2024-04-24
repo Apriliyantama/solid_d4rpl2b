@@ -2,7 +2,7 @@
 
 require_once 'DBMS.php';
 
-class mongodb extends DBMS {
+class mongodb implements DBMS {
     public function createConnection()
     {
         echo 'koneksi MongoDB';

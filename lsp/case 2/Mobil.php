@@ -2,7 +2,7 @@
 
 include_once "KendaraanBBM.php";
 
-class Mobil extends KendaraanBBM {
+class Mobil implements KendaraanBBM {
     public function menggunakanBBM(): void
     {
         echo "Mobil menggunakan BBM\n";

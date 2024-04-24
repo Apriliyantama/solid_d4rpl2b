@@ -1,11 +1,7 @@
 <?php
 
-class SocialMedia{
-    public function chat(): void {
-        echo "Social media chat platform\n";
-    }
+interface SocialMedia{
+    public function chat(): void;
 
-    public function sendPhotosAndVideos(): void {
-        echo "Social media features\n";
-    }
+    public function sendPhotosAndVideos(): void;
 }

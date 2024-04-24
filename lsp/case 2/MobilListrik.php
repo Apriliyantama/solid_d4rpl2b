@@ -2,8 +2,8 @@
 
 include_once "KendaraanListrik.php";
 
-class MobilListrik extends KendaraanListrik {
-    public function menggunakanBBM(): void
+class MobilListrik implements KendaraanListrik {
+    public function menggunakanBaterai(): void
     {
         echo "Mobil listrik menggunakan baterai\n";
     }

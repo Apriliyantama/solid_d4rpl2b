@@ -2,7 +2,7 @@
 
 include_once "VideoGroupManager.php";
 
-class WhatsApp extends VideoGroupManager {
+class WhatsApp implements VideoGroupManager {
     public function chat(): void{
         echo "chat using WhatsApp\n";
     }

@@ -1,5 +1,5 @@
 <?php
 
-abstract class TipePembayaran {
-    abstract public function memprosesPembayaran();
+interface TipePembayaran {
+    public function memprosesPembayaran();
 }

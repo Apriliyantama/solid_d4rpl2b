@@ -2,7 +2,7 @@
 
 require_once 'DBMS.php';
 
-class mysql extends DBMS {
+class mysql implements DBMS {
     public function createConnection()
     {
         echo 'koneksi MySQL';

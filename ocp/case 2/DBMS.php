@@ -1,5 +1,5 @@
 <?php
 
-abstract class DBMS {
-    abstract public function createConnection();
+interface DBMS {
+    public function createConnection();
 }

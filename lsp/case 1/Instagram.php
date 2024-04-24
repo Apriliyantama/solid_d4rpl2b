@@ -2,7 +2,7 @@
 
 include_once "PostMediaManager.php";
 
-class Instagram extends PostMediaManager {
+class Instagram implements PostMediaManager {
     public function chat(): void{
         echo "chat using Instagram\n";
     }

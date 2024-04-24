@@ -2,7 +2,7 @@
 
 require_once 'TipePembayaran.php';
 
-class Kredit extends TipePembayaran {
+class Kredit implements TipePembayaran {
     public function memprosesPembayaran() {
         echo 'Proses Pembayaran menggunakan Kredit';
     }
